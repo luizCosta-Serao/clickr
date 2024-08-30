@@ -34,6 +34,20 @@
   </header>
   <!-- END HEADER -->
 
+  <!-- START HERO -->
+  <section class="hero">
+    <h1>San Francisco Based <br> Product Photography Services</h1>
+    <p>Get high-quality aesthetic photographs of your valuable products within few days </p>
+    <a href=""><img src="./assets/camera.svg" alt=""> Book a photoshoot</a>
+    <div class="hero-images">
+      <img src="./assets/hero-img-1.png" alt="">
+      <img src="./assets/hero-img-2.png" alt="">
+      <img src="./assets/hero-img-3.png" alt="">
+      <img src="./assets/hero-img-4.png" alt="">
+      <img src="./assets/hero-img-5.png" alt="">
+    </div>
+  </section>
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
