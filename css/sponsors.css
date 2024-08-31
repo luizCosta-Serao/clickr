@@ -1,0 +1,41 @@
+.sponsors {
+  margin-bottom: 209px;
+}
+
+.sponsors p {
+  font-size: 18px;
+  color: #9E9E9E;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: "PT Serif", serif;
+  max-width: 356px;
+  margin: 0 auto 64px auto;
+  text-align: center;
+}
+
+.sponsors .sponsors-images {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 94px;
+  padding: 0 20px;
+}
+
+@media (max-width: 1250px) {
+  .sponsors .sponsors-images {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sponsors .sponsors-images {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .sponsors .sponsors-images img {
+    max-width: 200px;
+  }
+}
