@@ -1,0 +1,148 @@
+/* START SLIDER */
+.slide-wrapper {
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.testimonials {
+  margin: 0 auto;
+  display: flex;
+  gap: 240px;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonials .testimonial-single {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* END SLIDER */
+
+/* START CONTROLLER SLIDER */
+
+.controller-slide {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  max-width: 1140px;
+  margin: -70px auto 184px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.controller-slide p {
+  color: #424242;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.controller-slide img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.controller-slide img:hover {
+  scale: 1.1;
+}
+
+/* END CONTROLLER SLIDER */
+
+.testimonials .detail {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 39px;
+}
+
+.testimonials .testimonial-content p {
+  color: #424242;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+  max-width: 461px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 38px;
+}
+
+.testimonials .testimonial-content p > span {
+  color: #005DFF;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Roboto", sans-serif;
+}
+
+.testimonials .testimonial-content h4 {
+  color: #757575;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.testimonials .testimonial-content > span {
+  color: #757575;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "PT Serif", serif;
+}
+
+.testimonials .testimonial-image img {
+  width: 562px;
+  height: 562px;
+}
+
+@media (max-width: 1200px) {
+  .testimonials .detail {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonials .testimonial-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonials .testimonial-single {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .testimonials .testimonial-image img {
+    width: 362px;
+    margin: 47px auto 0 auto;
+    height: 362px;
+  }
+
+  .controller-slide {
+    margin: 40px auto 209px auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 550px) {
+  .testimonials .testimonial-content p {
+    font-size: 24px;
+  }
+
+  .testimonials .testimonial-content p > span {
+    font-size: 24px;
+  }
+
+  .testimonials .testimonial-image img {
+    width: 262px;
+    height: 262px;
+  }
+}
