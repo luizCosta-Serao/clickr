@@ -62,6 +62,30 @@
   </section>
   <!-- END SPONSORS -->
 
+    <!-- START HOW-HAPPENS -->
+    <section class="how-happens">
+    <p>How it happens</p>
+    <h2>You deliver-We Click</h2>
+    <ul class="steps">
+      <li class="step-one">
+        <span>1</span>
+        <h3>Inform us about your product</h3>
+        <p>Introduce your product, select through the pricing plan and let us know if you have any references in mind</p>
+      </li>
+      <li class="step-two">
+        <span>2</span>
+        <h3>Deliver your products</h3>
+        <p>Deliver the sujects at our doorstep, we will click perfect shots in no time and make it online ready</p>
+      </li>
+      <li class="step-three">
+        <span>3</span>
+        <h3>Reviewing the shots</h3>
+        <p>After the photoshoot, you will get to review the shots and let us know if there any modification needed.</p>
+      </li>
+    </ul>
+  </section>
+  <!-- END HOW-HAPPENS -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
