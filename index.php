@@ -86,6 +86,64 @@
   </section>
   <!-- END HOW-HAPPENS -->
 
+  <!-- START TESTIMONIALS -->
+  <div class="slide-wrapper">
+
+    <section class="testimonials">
+      <div class="testimonial-single">
+        <div class="testimonial-content">
+          <div class="detail">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+          </div>
+          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
+          <h4>Andrinna Malin</h4>
+          <span>Designer, co-Founder at Nirvana Tech</span>
+        </div>
+        <div class="testimonial-image">
+          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
+        </div>
+      </div>
+  
+      <div class="testimonial-single">
+        <div class="testimonial-content">
+          <div class="detail">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+          </div>
+          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
+          <h4>Andrinna Malin</h4>
+          <span>Designer, co-Founder at Nirvana Tech</span>
+        </div>
+        <div class="testimonial-image">
+          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
+        </div>
+      </div>
+  
+      <div class="testimonial-single">
+        <div class="testimonial-content">
+          <div class="detail">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+            <img src="./assets/aspas-depoimento.svg" alt="">
+          </div>
+          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
+          <h4>Andrinna Malin</h4>
+          <span>Designer, co-Founder at Nirvana Tech</span>
+        </div>
+        <div class="testimonial-image">
+          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="controller-slide">
+    <img id="prev-slide" src="./assets/arrow-left.png" alt="">
+    <p>1 of 3</p>
+    <img id="next-slide" src="./assets/arrow-right.png" alt="">
+  </section>
+  <!-- END TESTIMONIALS -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
