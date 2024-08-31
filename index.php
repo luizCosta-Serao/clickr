@@ -47,6 +47,20 @@
       <img src="./assets/hero-img-5.png" alt="">
     </div>
   </section>
+  <!-- END HERO  -->
+
+  <!-- START SPONSORS -->
+  <section class="sponsors">
+    <p>Commercial product photography agency praised by over 5,000 brands.</p>
+    <div class="sponsors-images">
+      <img src="./assets/netflix.svg" alt="Netflix">
+      <img src="./assets/facebook.svg" alt="Facebook">
+      <img src="./assets/freelancer.svg" alt="Freelancer">
+      <img src="./assets/mailbluster.svg" alt="MailBluster">
+      <img src="./assets/themewagon.svg" alt="ThemeWagon">
+    </div>
+  </section>
+  <!-- END SPONSORS -->
 
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
