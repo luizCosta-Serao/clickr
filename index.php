@@ -308,6 +308,39 @@
   </section>
   <!-- END PHOTOS -->
 
+  <!-- START OUR-SERVICES -->
+  <section class="our-services">
+    <h2>Our services</h2>
+    <div class="photo-preview">
+      <div>
+        <img src="./assets/photo-preview.png" alt="">
+      </div>
+      <div>
+        <h3>Photo Preview</h3>
+        <p>Invest on your commercial product photography on a visual story created by our creative team. Each click at the most reasonable price going to pay you more.</p>
+        <div class="actions">
+          <a href="">Explore service <img src="./assets/arrow-right-services.svg" alt=""></a>
+          <a href="">Pricing <img src="./assets/arrow-right-services.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-revision">
+      <div>
+        <h3>Photo Preview</h3>
+        <p>Invest on your commercial product photography on a visual story created by our creative team. Each click at the most reasonable price going to pay you more.</p>
+        <div class="actions">
+          <a href="">Explore service <img src="./assets/arrow-right-green.svg" alt=""></a>
+          <a href="">Pricing <img src="./assets/arrow-right-green.svg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/product-revision.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- END OUR-SERVICES -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>

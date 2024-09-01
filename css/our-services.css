@@ -1,0 +1,150 @@
+.our-services {
+  margin-bottom: 186px;
+  padding: 0 20px;
+}
+
+.our-services > h2 {
+  text-align: center;
+  color: #212121;
+  font-size: 57px;
+  font-weight: 700;
+  font-family: "PT Serif", serif;
+  margin-bottom: 61px;
+}
+
+.our-services .photo-preview {
+  display: grid;
+  align-items: center;
+  gap: 125px;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1140px;
+  margin: 0 auto 16px auto;
+  background-color: #E6EFFF;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.our-services .photo-preview h3 {
+  color: #005DFF;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "PT Serif", serif;
+  margin-bottom: 16px;
+}
+
+.our-services .photo-preview p {
+  color: #212121;
+  font-size: 18px;
+  line-height: 140%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 493px;
+  margin-bottom: 56px;
+}
+
+.our-services .actions {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+}
+
+.our-services .photo-preview .actions a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  color: #005DFF;
+}
+
+.our-services .actions a img {
+  width: 14px;
+  height: 15px;
+}
+
+
+.our-services .product-revision {
+  display: grid;
+  align-items: center;
+  gap: 125px;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #E5FAED;
+  border-radius: 16px;
+  padding: 28px 105px;
+}
+
+.our-services .product-revision h3 {
+  color: #28A154;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "PT Serif", serif;
+  margin-bottom: 16px;
+}
+
+.our-services .product-revision p {
+  color: #212121;
+  font-size: 18px;
+  line-height: 140%;
+  font-family: "Roboto", sans-serif;
+  max-width: 493px;
+  font-weight: 400;
+  margin-bottom: 56px;
+}
+
+.our-services .actions {
+  display: flex;
+  gap: 29px;
+  align-items: center;
+}
+
+.our-services .actions a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  color: #28A154;
+}
+
+@media (max-width: 900px) {
+  .our-services > h2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 850px) {
+  .our-services .photo-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .our-services .photo-preview > div > img {
+    display: none;
+  }
+
+  .our-services .product-revision {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    gap: 40px;
+  }
+
+  .our-services .product-revision > div > img {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .our-services > h2 {
+    font-size: 32px;
+  }
+}
