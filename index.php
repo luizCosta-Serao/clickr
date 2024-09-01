@@ -238,6 +238,76 @@
   </section>
   <!-- END PACKAGES -->
 
+  <!-- START PHOTOS -->
+  <section class="photos">
+    <h2>Over 1,00,000 Photos Shot</h2>
+    <ul class="photos-categories">
+      <li><a href="">Food</a></li>
+      <li><a class="active" href="">Shoe</a></li>
+      <li><a href="">Watches</a></li>
+      <li><a href="">Cosmetics</a></li>
+      <li><a href="">Phone</a></li>
+      <li><a href="">Camera</a></li>
+    </ul>
+
+    <ul id="food" class="gallery active">
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+    </ul>
+
+    <ul id="shoe" class="gallery">
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+    </ul>
+
+    <ul id="watches" class="gallery">
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+    </ul>
+
+    <ul id="cosmetics" class="gallery">
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+    </ul>
+
+    <ul id="phone" class="gallery">
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+    </ul>
+
+    <ul id="camera" class="gallery">
+      <li><img src="./assets/shoe-6.png" alt=""></li>
+      <li><img src="./assets/shoe-1.png" alt=""></li>
+      <li><img src="./assets/shoe-3.png" alt=""></li>
+      <li><img src="./assets/shoe-2.png" alt=""></li>
+      <li><img src="./assets/shoe-5.png" alt=""></li>
+      <li><img src="./assets/shoe-4.png" alt=""></li>
+    </ul>
+
+    <a class="view-portfolio" href="">View portfolio <img src="./assets/arrow-portfolio.svg" alt=""></a>
+  </section>
+  <!-- END PHOTOS -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
