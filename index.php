@@ -144,6 +144,100 @@
   </section>
   <!-- END TESTIMONIALS -->
 
+  <!-- START PACKAGES -->
+  <section class="packages">
+    <h2>Our Packages</h2>
+    <div class="packages-list">
+      <div class="basic">
+        <span>Basic</span>
+        <h3>$9 <span>/ per image</span></h3>
+        <ul>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>High quality images</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Single Revision</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>10 Products per order</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Not providing softcopy</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Free return shipment</p>
+          </li>
+        </ul>
+  
+        <a href="">Choose plan</a>
+      </div>
+  
+      <div class="avarage">
+        <span>Avarage</span>
+        <h3>$19 <span>/ per image</span></h3>
+        <ul>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>High quality images</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>3 Revisions</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>25 Products per order</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Provides softcopy</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Free return shipment</p>
+          </li>
+        </ul>
+  
+        <a href="">Choose plan</a>
+      </div>
+  
+      <div class="professional">
+        <span>Professional</span>
+        <h3>$29 <span>/ per image</span></h3>
+        <ul>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>High quality images</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>5 Revisions</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>50 Products per order</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Provides softcopy & PSD</p>
+          </li>
+          <li>
+            <img src="./assets/check-circle.svg" alt="">
+            <p>Free return shipment</p>
+          </li>
+        </ul>
+  
+        <a href="">Choose plan</a>
+      </div>
+    </div>
+  </section>
+  <!-- END PACKAGES -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
