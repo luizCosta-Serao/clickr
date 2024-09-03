@@ -384,6 +384,68 @@
   </section>
   <!-- END GET-STARTED -->
 
+  <!-- START FOOTER -->
+  <footer class="footer">
+    <ul class="footer-links">
+      <li>
+        <h3>Why Us</h3>
+        <a href="">Channel</a>
+        <a href="">Engagement</a>
+        <a href="">Scale</a>
+        <a href="">Watch Demo</a>
+      </li>
+
+      <li>
+        <h3>Product</h3>
+        <a href="">Features</a>
+        <a href="">Integrations</a>
+        <a href="">Enterprise</a>
+        <a href="">Solutions</a>
+      </li>
+
+      <li>
+        <h3>Resources</h3>
+        <a href="">Partners</a>
+        <a href="">Developers</a>
+        <a href="">Apps</a>
+        <a href="">Blogs</a>
+      </li>
+
+      <li>
+        <h3>Company</h3>
+        <a href="">About Us</a>
+        <a href="">Leadership</a>
+        <a href="">Investor Relations</a>
+        <a href="">News</a>
+      </li>
+
+      <li>
+        <h3>Pricing</h3>
+        <a href="">Plans</a>
+        <a href="">Paid vs. Free</a>
+      </li>
+    </ul>
+
+    <div class="contact">
+      <h3>Contact</h3>
+      <p><img src="./assets/phone.svg" alt="phone"> +214556905345</p>
+      <p><img src="./assets/envelope.svg" alt="email"> something@email.com</p>
+      <p><img src="./assets/map.svg" alt="phone"> +567, Kansas,  San Francisco, USA</p>
+    </div>
+
+    <div class="social-links">
+      <a href=""><img src="./assets/facebook-footer.svg" alt="Facebook"></a>
+      <a href=""><img src="./assets/twitter-footer.svg" alt="Twitter"></a>
+      <a href=""><img src="./assets/instagram-footer.svg" alt="Instagram"></a>
+    </div>
+
+    <div class="copyright">
+      <p>All rights Reserved <b>© Your Company, 2021</b></p>
+      <p>Made with <span>♥</span> by <b>Themewagon</b></p>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
