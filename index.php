@@ -376,6 +376,14 @@
   </section>
   <!-- END FAQ -->
 
+  <!-- START GET-STARTED -->
+  <section class="get-started">
+    <img src="./assets/bg-get-started.svg" alt="">
+    <h2>Get your commercial product images today that matter</h2>
+    <a href="">Get Started Now</a>
+  </section>
+  <!-- END GET-STARTED -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
