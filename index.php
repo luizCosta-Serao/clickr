@@ -341,6 +341,41 @@
   </section>
   <!-- END OUR-SERVICES -->
 
+  <!-- START FAQ -->
+  <section class="faq">
+    <h2>FAQ</h2>
+    <div>
+      <h3 class="faq-title faq-blue">What's the turnabout time?</h3>
+      <p>Generally the turnabout time depends on the scheme of pricing you are selecting. The tentative turnaround time for orders less than 100 images is up to 12 business days from the time we receive your products and payment. Reach our support to get better insight.</p>
+    </div>
+
+    <div>
+      <h3 class="faq-title faq-orange">Can I provide references?</h3>
+      <p>Absolutely! If clients provide any sort of refernces, that is highly appreciated by our creative team.</p>
+    </div>
+
+    <div>
+      <h3 class="faq-title faq-green">What are the delivery options?</h3>
+      <p>Deliver your products by using the labeling with the help of any courier service or just drop it at our door step at the Biancca Studio, San Francisco.</p>
+    </div>
+
+    <div>
+      <h3 class="faq-title faq-blue">Can I be present during the shoot?</h3>
+      <p>Sorry, we currently do not support that under any pricing scheme. Usually any other person than the creative team is not allowed to attend the phototshoot. Otherwise, it has effects on others and time & effort get wasted as we conduct the process on a fixed plan. We hope that people would understand and respect our creative process. </p>
+    </div>
+
+    <div>
+      <h3 class="faq-title faq-orange">Will my products be returned?</h3>
+      <p>That’s totally up to you. If you want the product back, then you have to include that option in registration time. Else, it will be stored in our storage and you can pick that whenever you wish.</p>
+    </div>
+
+    <div>
+      <h3 class="faq-title faq-green">Do you support revisions?</h3>
+      <p>Yes, based on the pricing plan, you will have several revision options. If you want to bring more than 90% change, then you will have to pay further.</p>
+    </div>
+  </section>
+  <!-- END FAQ -->
+
   <!-- SCRIPTS  -->
   <script src="./js/jquery.min.js"></script>
   <script type="module" src="./js/index.js"></script>
