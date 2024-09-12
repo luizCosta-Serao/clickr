@@ -1,0 +1,52 @@
+body {
+  background-color: #E6EFFF;
+}
+
+.login-painel {
+  max-width: 300px;
+  padding: 40px;
+  background-color: #fff;
+  margin: 200px auto 0 auto;
+  border-radius: 16px;
+}
+
+.login-painel form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-painel form label {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 11px;
+  color: #444;
+}
+
+.login-painel form input {
+  margin-bottom: 22px;
+  max-width: 300px;
+  border: 1px solid #bbb;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 8px;
+  transition: .3s;
+  color: #444;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.login-painel form input:focus,
+.login-painel form input:hover {
+  border-color: #005DFF;
+}
+
+.login-painel form input[type="submit"] {
+  background-color: #005DFF;
+  color: #fff;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 11px;
+}
