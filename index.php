@@ -101,52 +101,29 @@
   <div class="slide-wrapper">
 
     <section class="testimonials">
-      <div class="testimonial-single">
-        <div class="testimonial-content">
-          <div class="detail">
-            <img src="./assets/aspas-depoimento.svg" alt="">
-            <img src="./assets/aspas-depoimento.svg" alt="">
+      <?php
+        $sql = MySql::connect()->prepare("SELECT * FROM `depoimentos`");
+        $sql->execute();
+        $depoimentos = $sql->fetchAll();
+
+        foreach ($depoimentos as $key => $value) {
+      ?>
+        <div class="testimonial-single">
+          <div class="testimonial-content">
+            <div class="detail">
+              <img src="./assets/aspas-depoimento.svg" alt="">
+              <img src="./assets/aspas-depoimento.svg" alt="">
+            </div>
+            <p><?php echo $value['depoimento'] ?></p>
+            <h4><?php echo $value['nome'] ?></h4>
+            <span><?php echo $value['profissao'] ?></span>
           </div>
-          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
-          <h4>Andrinna Malin</h4>
-          <span>Designer, co-Founder at Nirvana Tech</span>
-        </div>
-        <div class="testimonial-image">
-          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
-        </div>
-      </div>
-  
-      <div class="testimonial-single">
-        <div class="testimonial-content">
-          <div class="detail">
-            <img src="./assets/aspas-depoimento.svg" alt="">
-            <img src="./assets/aspas-depoimento.svg" alt="">
+          <div class="testimonial-image">
+            <img src="<?php echo INCLUDE_PATH ?>uploads/<?php echo $value['foto'] ?>" alt="Andrina Malin">
           </div>
-          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
-          <h4>Andrinna Malin</h4>
-          <span>Designer, co-Founder at Nirvana Tech</span>
         </div>
-        <div class="testimonial-image">
-          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
-        </div>
-      </div>
-  
-      <div class="testimonial-single">
-        <div class="testimonial-content">
-          <div class="detail">
-            <img src="./assets/aspas-depoimento.svg" alt="">
-            <img src="./assets/aspas-depoimento.svg" alt="">
-          </div>
-          <p>When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of best services out there. Team was fast and responsible. 5 stars for them!</p>
-          <h4>Andrinna Malin</h4>
-          <span>Designer, co-Founder at Nirvana Tech</span>
-        </div>
-        <div class="testimonial-image">
-          <img src="./assets/testimonial-1.png" alt="Andrina Malin">
-        </div>
-      </div>
+      <?php } ?>
     </section>
-  </div>
 
   <section class="controller-slide">
     <img id="prev-slide" src="./assets/arrow-left.png" alt="">
