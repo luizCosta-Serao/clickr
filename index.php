@@ -1,3 +1,4 @@
+<?php include ('./config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,16 +36,26 @@
   <!-- END HEADER -->
 
   <!-- START HERO -->
+  <?php
+    $mySql = new MySql();
+    $sql = $mySql::connect()->prepare("SELECT * FROM `conteudo-site`");
+    $sql->execute();
+    $conteudo_hero = $sql->fetch();
+
+    $sql = MySql::connect()->prepare("SELECT * FROM `imagens` LIMIT 5");
+    $sql->execute();
+    $imagensHero = $sql->fetchAll();
+  ?>
   <section class="hero">
-    <h1>San Francisco Based <br> Product Photography Services</h1>
-    <p>Get high-quality aesthetic photographs of your valuable products within few days </p>
-    <a href=""><img src="./assets/camera.svg" alt=""> Book a photoshoot</a>
+    <h1><?php echo $conteudo_hero['titulo_hero'] ?></h1>
+    <p><?php echo $conteudo_hero['descricao_hero'] ?></p>
+    <a href=""><img src="./assets/camera.svg" alt=""> <?php echo $conteudo_hero['botao_hero'] ?></a>
     <div class="hero-images">
-      <img src="./assets/hero-img-1.png" alt="">
-      <img src="./assets/hero-img-2.png" alt="">
-      <img src="./assets/hero-img-3.png" alt="">
-      <img src="./assets/hero-img-4.png" alt="">
-      <img src="./assets/hero-img-5.png" alt="">
+      <?php
+        foreach ($imagensHero as $key => $value) {
+      ?>
+        <img src="<?php echo INCLUDE_PATH; ?>uploads/<?php echo $value['name'] ?>" alt="">
+      <?php  } ?>
     </div>
   </section>
   <!-- END HERO  -->
