@@ -9,6 +9,7 @@
 
   define('INCLUDE_PATH', 'http://localhost/clickr/');
   define('INCLUDE_PATH_PAINEL', INCLUDE_PATH.'painel/');
+  define('BASE_DIR', __DIR__);
 
   define('HOST', 'localhost');
   define('USER', 'root');

@@ -1,2 +1,19 @@
 /* PÁGINA DE LOGIN DO PAINEL DE CONTROLE */
 @import url('./login.css');
+
+/* HOME DO PAINEL DE CONTROLE */
+@import url('./painel-home.css');
+
+/* EDITAR HERO */
+@import url('./editar-hero.css');
+
+.sucesso {
+  color: green;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: fit-content;
+}
