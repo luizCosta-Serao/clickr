@@ -19,6 +19,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.testimonials .testimonial-single .testimonial-image img {
+  object-fit: cover;
+}
+
 /* END SLIDER */
 
 /* START CONTROLLER SLIDER */

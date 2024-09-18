@@ -7,6 +7,9 @@
 /* EDITAR HERO */
 @import url('./editar-hero.css');
 
+/* ADICIONAR DEPOIMNTO */
+@import url('./adicionar-depoimento.css');
+
 .sucesso {
   color: green;
   font-size: 20px;

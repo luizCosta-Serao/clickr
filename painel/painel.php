@@ -28,6 +28,7 @@
     <aside class="sidebar">
         <a href="<?php echo INCLUDE_PATH_PAINEL; ?>">Início</a>
         <a href="<?php echo INCLUDE_PATH_PAINEL; ?>editar-hero">Editar Hero</a>
+        <a href="<?php echo INCLUDE_PATH_PAINEL; ?>adicionar-depoimento">Adicionar Depoimento</a>
     </aside>
     <div class="content">
       <?php
