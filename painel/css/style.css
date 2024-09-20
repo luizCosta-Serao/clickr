@@ -7,8 +7,14 @@
 /* EDITAR HERO */
 @import url('./editar-hero.css');
 
-/* ADICIONAR DEPOIMNTO */
+/* ADICIONAR DEPOIMENTO */
 @import url('./adicionar-depoimento.css');
+
+/* ADICIONAR CATEGORIA */
+@import url('./adicionar-categoria.css');
+
+/* ADICIONAR FOTO */
+@import url('./adicionar-foto.css');
 
 .sucesso {
   color: green;

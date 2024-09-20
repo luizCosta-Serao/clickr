@@ -29,6 +29,8 @@
         <a href="<?php echo INCLUDE_PATH_PAINEL; ?>">Início</a>
         <a href="<?php echo INCLUDE_PATH_PAINEL; ?>editar-hero">Editar Hero</a>
         <a href="<?php echo INCLUDE_PATH_PAINEL; ?>adicionar-depoimento">Adicionar Depoimento</a>
+        <a href="<?php echo INCLUDE_PATH_PAINEL; ?>adicionar-categoria">Adicionar Categoria</a>
+        <a href="<?php echo INCLUDE_PATH_PAINEL; ?>adicionar-foto">Adicionar Foto</a>
     </aside>
     <div class="content">
       <?php
