@@ -40,16 +40,21 @@
 }
 
 .photos .gallery {
-  display: none;
+  display: grid;
   gap: 16px;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1140px;
   margin: 0 auto 63px auto;
 }
 
-.photos .gallery.active {
-  display: grid;
+.photos .gallery li {
+  display: none;
 }
+
+.photos .gallery li.active {
+  display: block;
+}
+
 
 .photos .view-portfolio {
   display: flex;
